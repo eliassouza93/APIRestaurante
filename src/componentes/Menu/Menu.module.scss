@@ -1,7 +1,9 @@
 
 ul{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
+    gap: -15rem;
+    
 }
 li{
   font-family: sans-serif;
