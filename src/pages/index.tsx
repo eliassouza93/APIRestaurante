@@ -19,10 +19,7 @@ export default function PaginaInicial() {
     }, {
         nome: 'Rita',
         idade: 25
-    }, {
-        nome: 'Paulo',
-        idade: 31
-    }]
+    } ]
     return (
         <div>
 
