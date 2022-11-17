@@ -22,7 +22,7 @@ export default function Prato() {
             })
     }, [])
     return (
-        <div>
+        <div  >
             <h1>Pratos</h1>
             {prato.map((obj) => (
                 <div key={obj.id}>

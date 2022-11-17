@@ -1,11 +1,37 @@
+* {
+  margin: 0;
 
-ul{
-    display: flex;
-    justify-content: space-evenly;
-    gap: -15rem;
-    
 }
-li{
+
+body,
+html {
+  max-width: 1200px;
+  margin: auto;
+}
+
+ul {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #333;
+  color: #efefef;
+  height: 150px;
+  align-items: center;
+
+
+
+}
+
+a {
+  color: #efefef;
+}
+
+li {
   font-family: sans-serif;
   font-size: 20px;
+ 
+
+}
+
+h1 {
+  text-align: center;
 }
