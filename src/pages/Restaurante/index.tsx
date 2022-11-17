@@ -20,8 +20,7 @@ export default function Restaurante() {
 
     return (
         <div>
-            <h1>Restaurante</h1>
-
+            <h1>Restaurante</h1> 
             <div>
                 {restaurante.map((data) => (
                     <li key={data.id}>
@@ -29,9 +28,7 @@ export default function Restaurante() {
                     </li>
                 ))}
             </div>
-
-
-
+ 
         </div>
     )
 }
