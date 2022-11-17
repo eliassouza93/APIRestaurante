@@ -11,6 +11,9 @@ export default function Menu() {
     }, {
         label: 'Restaurante',
         to: '/restaurante'
+    },{
+        label: 'Administração',
+        to:'/administracao'
     }
 
     ]
@@ -22,7 +25,6 @@ export default function Menu() {
                     <li key={index}>
                         <Link to={rota.to}>
                             {rota.label}
-
                         </Link>
                     </li>
                 ))}
