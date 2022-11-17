@@ -22,15 +22,17 @@ export default function Menu() {
 
     return (
         <div className={style.module}>
-            <ul    >
-                {rotas.map((rota, index) => (
-                    <li key={index}>
-                        <Link to={rota.to}>
-                            {rota.label}
-                        </Link>
-                    </li>
-                ))}
-            </ul>
+            <div className="style.div1">
+                <ul    >
+                    {rotas.map((rota, index) => (
+                        <li key={index}>
+                            <Link to={rota.to}>
+                                {rota.label}
+                            </Link>
+                        </li>
+                    ))}
+                </ul>
+            </div>
 
              
         </div>
