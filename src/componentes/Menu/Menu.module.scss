@@ -7,6 +7,7 @@ body,
 html {
   max-width: 1200px;
   margin: auto;
+  scroll-behavior: smooth;
 
 }
 
@@ -37,7 +38,7 @@ h1 {
 
 a {
   color: #000;
-  font-weight: bold;
+  
   -webkit-transition: 0.5s ease-in;
   -moz-transition: 0.5s ease-in;
   -o-transition: 0.5s ease-in;
@@ -48,19 +49,6 @@ a {
 a:hover {
   color: #f00;
 }
+ 
 
-
-.div1 {
-  background: yellow;
-  width: 80%; /* largura da div */
-  height:40px; /* altura da div */
-  border:1px solid #999; /* borda da div */
-  
-  }
-  .div1:hover {
-  background: blue;
-  -webkit-transition: 0.5s ease-out;
-  -moz-transition: 0.5s ease-out;
-  -o-transition: 0.5s ease-out;
-  transition: 0.5s ease-out;
-  }
+ 

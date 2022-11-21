@@ -18,8 +18,6 @@ export default function Menu() {
 
     ]
 
-
-
     return (
         <div className={style.module}>
             <div className="style.div1">
@@ -33,8 +31,6 @@ export default function Menu() {
                     ))}
                 </ul>
             </div>
-
-             
         </div>
     )
 }
